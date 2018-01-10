@@ -1,0 +1,19 @@
+﻿body {
+    color:blue;
+}
+
+label {
+    color: red;
+}
+
+span {
+    color: green;
+}
+
+#lefside {
+    font-style:italic;
+}
+
+.bold_label {
+    font-weight:bold;
+}
