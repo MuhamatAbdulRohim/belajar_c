@@ -1,9 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/myLayout.Master" AutoEventWireup="true" CodeBehind="content1.aspx.cs" Inherits="WebApplication1.content1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link rel="stylesheet" href="boot/bootstrap.css" />
+    <link rel="stylesheet" href="Content/font-awesome.css" />
+    <link rel="stylesheet" href="admin-lte/css/AdminLTE.css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    Daftar Nama
+    <header class="main-header">
+        <h1 class="page-header">Daftar Nama</h1>
+    </header>
     <asp:GridView ID="GridListNama" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" OnRowEditing="GridListNama_RowComand" OnRowCancelingEdit="GridListNama_RowCanceling" OnRowUpdating="GridListNama_OnRowUpdating">
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
         <Columns>
@@ -29,4 +34,11 @@
         <SortedDescendingCellStyle BackColor="#FFFDF8" />
         <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
     </asp:GridView>
+    <asp:Button ID="okBtn" runat="server" Text="OK" CssClass="btn btn-primary" />
+
+    <!-- js -->
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="admin-lte/js/adminlte.js"></script>
+
 </asp:Content>

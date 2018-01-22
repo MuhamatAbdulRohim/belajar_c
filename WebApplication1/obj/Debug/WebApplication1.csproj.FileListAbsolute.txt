@@ -11,3 +11,16 @@ C:\Users\muham\OneDrive\Documents\IISExpress\WebApplication1\WebApplication1\bin
 C:\Users\muham\OneDrive\Documents\IISExpress\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.dll
 C:\Users\muham\OneDrive\Documents\IISExpress\WebApplication1\WebApplication1\bin\Npgsql.xml
 C:\Users\muham\OneDrive\Documents\IISExpress\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\bin\WebApplication1.dll
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\bin\WebApplication1.pdb
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\bin\Npgsql.dll
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\bin\Npgsql.xml
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\muham\Documents\GitHub\belajar_c\WebApplication1\obj\Debug\WebApplication1.pdb

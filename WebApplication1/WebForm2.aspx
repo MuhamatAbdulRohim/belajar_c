@@ -41,6 +41,12 @@
             <SortedDescendingCellStyle BackColor="#FFFDF8" />
             <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
         </asp:GridView>
+        <br />
+        <asp:TextBox ID="nama" runat="server"></asp:TextBox>
+        <br />
+        <asp:TextBox ID="alamat" runat="server"></asp:TextBox>
+        <br />
+        <asp:Button ID="simpan" runat="server" Text="Button" OnClick="simpan_Click" />
     </form>
 </body>
 </html>

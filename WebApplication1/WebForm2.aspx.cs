@@ -43,7 +43,6 @@ namespace WebApplication1
             aDr = myCommand.ExecuteReader();
 
             // menampung hasil query
-            
             myDataTable.Load(aDr);
             ViewState["myDataTable"] = myDataTable;
             //listNama.Items.Add(myDataTable.Rows[0].Field<string>("nama"));
@@ -100,6 +99,26 @@ namespace WebApplication1
             }
 
             string query = "update utama.orang set nama='"+ ((TextBox)(row.Cells[0].Controls[1])).Text +"', alamat='"+ ((TextBox)(row.Cells[1].Controls[0])).Text+"' where id_orang='"+ myDataTable.Rows[row.DataItemIndex]["id_orang"]+"'";
+            NpgsqlCommand myCommand = new NpgsqlCommand(query, theConnenction);
+            myCommand.CommandType = CommandType.Text;
+
+            myCommand.ExecuteNonQuery();
+        }
+
+        protected void simpan_Click(object sender, EventArgs e)
+        {
+            string name = nama.Text;
+            string address = alamat.Text;
+
+            theConnenction = new NpgsqlConnection();
+            theConnenction.ConnectionString = myConnection;
+
+            if (theConnenction.State == ConnectionState.Closed)
+            {
+                theConnenction.Open();
+            }
+
+            string query = "insert into utama.orang(nama, alamat) values('" + name + "', '" + address + "');";
             NpgsqlCommand myCommand = new NpgsqlCommand(query, theConnenction);
             myCommand.CommandType = CommandType.Text;
 
